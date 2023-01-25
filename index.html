@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!-- ================Header Start====================== -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-solid fa-x" onclick="closemanu()"></i>
+                </ul>
+                <i class=" fas fa-solid fa-bars" onclick="openmanu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Django Devloper</p>
+                <h1>Hi,i'm <span>Tapish</span><br> Agrawal</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ================Header Start====================== -->
+
+    <!-- ================About Start====================== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam minima laudantium, ex tempore fugit accusamus commodi tenetur illum voluptas, praesentium molestiae, debitis alias facere possimus sed nesciunt! Rem nam odio veritatis sequi dolore dolor saepe distinctio quia beatae. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Django Devloper</span><br>Building and implement Python code <br>using the Django framework.</li>
+                            <li><span>Front-End devloper</span><br>Design Web interfaces.</li>
+                            <li><span>UI/UX</span><br>Designing Web interfaces.</li>                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>Ecouser</span><br>Ecouser is online education platform,<br> Dynamic website.</li>                            
+                            <li><span>Ray's</span><br>Ray's is a restaurant website<br> fully responsive.</li>
+                            <li><span>My Portfolio</span><br>I make my Portfolio<br> to improve my skills.</li>
+                        </ul>
+                    </div><div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tach</span><br>Bansal collage of engineering <br>Mandideep.</li>
+                            <li><span>12th</span><br>Govt Boys H S School <br> Rehti Sehore.</li>
+                            <li><span>10th</span><br>Santkrupa Public High School <br> Rehti Sehore.</li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================About End====================== -->
+
+    <!-- ================services Start====================== -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, laborum nisi. Qui quisquam quas possimus sapiente.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Django Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, laborum nisi. Qui quisquam quas possimus sapiente.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, laborum nisi. Qui quisquam quas possimus sapiente.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================services End====================== -->
+
+    <!-- ================Portfolio Start====================== -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad harum perferendis accusamus quam officia facere.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad harum perferendis accusamus quam officia facere.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Online shoping App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad harum perferendis accusamus quam officia facere.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ================Portfolio End====================== -->
+
+    <!-- ================Contact Start====================== -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> Tapishg4@gmial.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +919755774973</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/vishu.bajaj.9083?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/tapishvishu/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                        <a href="https://github.com/Tapishagrawal" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://www.linkedin.com/in/tapish-agrawal-890a06259" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="images/Tapish.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Tapish Agrawal Made with <i class="fa-sharp fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <!-- ================Contact End====================== -->
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sm=document.getElementById("sidemenu")
+        function openmanu(){
+            sm.style.right="0"
+        }
+        function closemanu(){
+            sm.style.right="-200px"
+        }
+    </script>
+</body>
+</html> 
