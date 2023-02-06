@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'poppins','sans-serif';
+    font-family:"poppins";
     box-sizing: border-box;
 }
 body{
@@ -72,7 +73,8 @@ nav ul li a:hover::after{
     color: #ff004f;
 }
 h2.type-text{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
     margin-top: 20px;
 }
 /* ================Header End======================  */
