@@ -68,6 +68,13 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff004f;
 }
+.header-text h2 span{
+    color: #ff004f;
+}
+h2.type-text{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
 /* ================Header End======================  */
 
 /* ================About Start======================  */

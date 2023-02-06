@@ -26,7 +26,8 @@
             </nav>
             <div class="header-text">
                 <p>Django Devloper</p>
-                <h1>Hi,i'm <span>Tapish</span><br> Agrawal</h1>
+                <h1>Hi,i'm <span>Tapish</span><br/>Agrawal</h1>
+                <h2 class="type-text">I'm <span class="auto-type"></span></h2>
             </div>
         </div>
     </div>
@@ -41,7 +42,7 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam minima laudantium, ex tempore fugit accusamus commodi tenetur illum voluptas, praesentium molestiae, debitis alias facere possimus sed nesciunt! Rem nam odio veritatis sequi dolore dolor saepe distinctio quia beatae. </p>
+                    <p>As a full stack web developer, I have a strong foundation in HTML, CSS, and Bootstrap for front-end development, as well as expertise in Python and Django for back-end development. I also have experience in React.js, which allows me to create dynamic and interactive user interfaces.  </p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('project')">Project</p>
@@ -83,19 +84,19 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Front-End Devloper</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, laborum nisi. Qui quisquam quas possimus sapiente.</p>
+                    <p>As a front-end developer, I bring ideas to life by crafting visually appealing and user-friendly web interfaces. With a solid foundation in HTML, CSS, and Bootstrap, I am able to create responsive and dynamic designs that enhance the user experience.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-python"></i>
                     <h2>Django Developer</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, laborum nisi. Qui quisquam quas possimus sapiente.</p>
+                    <p>I am a Django developer, meaning I specialize in creating websites and applications using the Django framework. I have experience with both front-end and back-end development, and I use my knowledge of Python and HTML/CSS to build dynamic and user-friendly websites. </p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-sharp fa-solid fa-crop-simple"></i>
                     <h2>Back-End Devloper</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, laborum nisi. Qui quisquam quas possimus sapiente.</p>
+                    <p>A back-end developer is responsible for creating and maintaining the server-side of a web application. i work with programming languages such as Python to build the foundation of a website, ensuring it runs smoothly and efficiently.</p>
                     <a href="#">Learn more</a>
                 </div>
             </div>
@@ -112,25 +113,25 @@
                 <div class="work">
                     <img src="images/work-1.png" >
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad harum perferendis accusamus quam officia facere.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>My Protfolio</h3>
+                        <p>As a full stack web developer, I bring together my expertise in front-end and back-end technologies to create dynamic and user-friendly web applications. My strong foundation in HTML, CSS, and Bootstrap, as well as proficiency in Python and Django, allows me to create high-quality and responsive websites.</p>
+                        <a href="https://tapish-portfolio.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-2.png" >
                     <div class="layer">
-                        <h3>Music App</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad harum perferendis accusamus quam officia facere.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Restaurant website</h3>
+                        <p>Restaurant website utilizes HTML, CSS, Bootstrap, and Django to create a visually appealing and user-friendly platform</p>
+                        <a href="https://rayss.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-3.png" >
                     <div class="layer">
-                        <h3>Online shoping App</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad harum perferendis accusamus quam officia facere.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Calculator</h3>
+                        <p>A calculator project built with HTML, CSS, and JavaScript to provide an interactive and user-friendly interface for mathematical calculations, Dark mode available also.</p>
+                        <a href="https://tap-calculator.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -156,7 +157,7 @@
                     <a href="images/Tapish Agrawal.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form action="https://formsubmit.co/el/liratu" method="POST" >
                         <input type="text" name="name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="message" rows="6" placeholder="Your Message"></textarea>
@@ -197,5 +198,14 @@
             sm.style.right="-200px"
         }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed= new Typed(".auto-type", {
+                strings: ["React.js Devloper ", "Front-End Web Developer","Back-End Web Devloper"],
+                typeSpeed:50,
+                backSpeed:50,
+                loop:true
+            })        
+        </script>
 </body>
 </html> 
